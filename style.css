@@ -1,0 +1,62 @@
+#background-gradient {
+    height: 836px;
+    background: linear-gradient(to bottom, white, rgb(238, 209, 106) );
+}
+
+#container-content {
+    box-shadow: 3px 3px 0 0 rgba(72, 72, 72, 1);
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    display: inline-block;
+    margin: 0 auto;
+    top: 10%;
+    bottom: 10%;
+    padding: 10%;
+    left: 25%;
+}
+
+a.text-gray {
+    color: darkgrey;
+}
+
+a.text-red {
+    color: darkred;
+}
+
+.imagesan {
+    width: 10%;
+    top: 3%;
+    left: 3%;
+    position: absolute;
+}
+
+h2.shadow {
+    color: #E79F1A;
+    font-size: 30pt;
+    text-shadow: 5px 2px 4px grey;
+    font-weight: bold;
+    display: inline;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: crimson;
+}
+
+a:link {
+    color: pink;
+}
+
+/* a:visited {
+    color: green;
+} */
+
+a:active {
+    color: blue;
+}
+hr.hr-line {
+    border-top: 1px solid orange;
+}
