@@ -75,25 +75,7 @@ strong {
     font-style: italic;
 }
 
-@media only screen and (max-width: 600px) {
-    /* #background-gradient {
-        background: red;
-    } */
-    img {
-        display: none;
-    }
-    #container-content {
-        box-shadow: unset;
-        left: 5%;
-        right: 5%;
-        bottom: 0px;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    /* #background-gradient {
-        background: green;
-    } */
+@media only screen and (min-width: 320px) {
     img {
         display: none;
     }
@@ -105,35 +87,12 @@ strong {
         box-shadow: unset;
         left: 5%;
         right: 5%;
-        top: 10%;
-        bottom: 10%;
+        top: 5%;
+        bottom: 5%;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    /* #background-gradient {
-        background: blue;
-    } */
-    img {
-        display: none;
-    }
-    h2.shadow {
-        color: unset;
-        text-shadow: unset;
-    }
-    #container-content {
-        box-shadow: unset;
-        left: 15%;
-        right: 15%;
-        top: 10%;
-        bottom: 10%;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    /* #background-gradient {
-        background: orange;
-    } */
     #container-content {
         position: absolute;
         display: inline-block;
@@ -160,10 +119,7 @@ strong {
     }
 }
 
-@media only screen and (min-width: 1200px) {
-    /* #background-gradient {
-        background: linear-gradient(to bottom, white, rgb(238, 209, 106));
-    } */
+@media only screen and (min-width: 1024px) {
     img {
         width: 16%;
         float: left;
